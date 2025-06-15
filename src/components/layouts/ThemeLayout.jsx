@@ -22,4 +22,4 @@ ThemeLayout.propTypes = {
     children: PropTypes.node.isRequired,
 };
 
-export default ;
+export default ThemeLayout;
