@@ -1,10 +1,9 @@
 import { notFound } from 'next/navigation';
 import { getSinglePost } from '@/lib/posts';
 import Head from 'next/head';
-import {PostDetailProps} from "@/Interfaces/PostInterfaces";
 import Image from 'next/image';
 
-const PostDetailPage = async ({ params }: PostDetailProps) => {
+const PostDetailPage = async ({ params }) => {
     const { slug } = params;
 
     // Fetch the single post based on the slug
