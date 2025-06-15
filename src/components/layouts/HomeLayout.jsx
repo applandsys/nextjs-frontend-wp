@@ -2,22 +2,20 @@ import React from 'react';
 import TopNav from "@/components/theme-parts/TopNav";
 import Footer from "@/components/theme-parts/Footer";
 
-const ThemeLayout = ({
+const HomeLayout = ({
                         children,
-                    }: Readonly<{
-    children: React.ReactNode;
-}>) => {
+                    }) => {
     return (
         <div className="flex flex-col min-h-screen">
             <header>
                 <TopNav/>
             </header>
-            <main className="container mx-auto flex-grow">
+            <main className="flex-grow">
                 {children}
             </main>
-            <Footer/>
+           <Footer/>
         </div>
     );
 };
 
-export default ThemeLayout;
+export default HomeLayout;
