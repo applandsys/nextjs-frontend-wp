@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: ahm hima ah ah">
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nextjs-wp-blog.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/PostInterfaces.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(site)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/HomeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/HomeLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/ThemeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/ThemeLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theme-parts/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-parts/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theme-parts/TopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-parts/TopNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/comments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/graphqlRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/graphqlRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/pages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/seo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-    </list>
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: even confi9g" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +98,7 @@
       <workItem from="1750012784833" duration="525000" />
       <workItem from="1750013454498" duration="1092000" />
       <workItem from="1750014653881" duration="4136000" />
-      <workItem from="1750019526900" duration="1803000" />
+      <workItem from="1750019526900" duration="2123000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -240,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750018049714</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Feat: converted to js">
+      <option name="closed" value="true" />
+      <created>1750021416753</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750021416753</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feat: even confi9g">
+      <option name="closed" value="true" />
+      <created>1750021430215</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750021430215</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +249,8 @@
     <MESSAGE value="Feat: ah hima  ah" />
     <MESSAGE value="Feat:Image removed" />
     <MESSAGE value="Feat: ahm hima ah ah" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: ahm hima ah ah" />
+    <MESSAGE value="Feat: converted to js" />
+    <MESSAGE value="Feat: even confi9g" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: even confi9g" />
   </component>
 </project>
