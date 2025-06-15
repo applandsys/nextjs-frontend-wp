@@ -1,17 +1,17 @@
+// src/app/(site)/blog/[slug]/page.tsx
+
 import { notFound } from 'next/navigation';
 import { getSinglePost } from '@/lib/posts';
 import Head from 'next/head';
 import Image from 'next/image';
-import type { Metadata } from 'next';
 
-type PageProps = {
-    params: {
-        slug: string;
-    };
-};
-
-const PostDetailPage = async ({ params }: PageProps) => {
+const PostDetailPage = async ({
+                                  params,
+                              }: {
+    params: { slug: string };
+}) => {
     const { slug } = params;
+
     const post = await getSinglePost(slug);
 
     if (!post) {
@@ -39,7 +39,7 @@ const PostDetailPage = async ({ params }: PageProps) => {
                         </div>
                         <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
                         <div className="text-lg text-gray-600 mb-6">
-                            Published on {/* Add Date Logic here */}
+                            Published on {/* Date logic here */}
                         </div>
                         <div
                             className="post-content"
