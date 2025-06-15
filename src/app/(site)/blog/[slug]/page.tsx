@@ -8,7 +8,7 @@ const PostDetailPage = async ({ params }: PostDetailProps) => {
     const { slug } = params;
 
     // Fetch the single post based on the slug
-    const post = await getSinglePost(slug);
+    const post =  await getSinglePost(slug);
 
     // If the post is not found, return a 404 page
     if (!post) {
