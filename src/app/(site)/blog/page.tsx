@@ -18,16 +18,7 @@ const BlogPage = async () => {
                     <ul>
                         {allPosts.nodes.map((post) => (
                             <li key={post.slug} className="grid grid-cols-5 gap-4 mb-4">
-                                <div className="col-span-2">
-                                    {/* Display Featured Image if available */}
-                                    {post.featuredImage?.node?.mediaDetails.sizes[0]?.sourceUrl && (
-                                        <img
-                                            src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}
-                                            alt={post.title}
-                                            className="w-full h-auto"
-                                        />
-                                    )}
-                                </div>
+
                                 <div className="col-span-3">
                                     <h2 className="py-4">
                                         <Link
