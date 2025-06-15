@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import TopNav from "@/components/theme-parts/TopNav";
 import Footer from "@/components/theme-parts/Footer";
 
@@ -16,4 +17,9 @@ const ThemeLayout = ({children,}) => {
     );
 };
 
-export default ThemeLayout;
+// ✅ Add this:
+ThemeLayout.propTypes = {
+    children: PropTypes.node.isRequired,
+};
+
+export default ;
