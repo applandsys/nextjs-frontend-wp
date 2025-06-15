@@ -5,20 +5,17 @@ import { getSinglePost } from '@/lib/posts';
 import Head from 'next/head';
 import Image from 'next/image';
 
-interface PageProps {
+type PostDetailProps = {
     params: {
         slug: string;
     };
-}
+};
 
-const PostDetailPage = async (props: Promise<PageProps>) => {
-    const { params } = await props;
+const PostDetailPage = async ({ params }: PostDetailProps) => {
     const { slug } = params;
 
-    // Fetch the single post based on the slug
     const post = await getSinglePost(slug);
 
-    // If the post is not found, return a 404 page
     if (!post) {
         notFound();
     }
@@ -31,23 +28,20 @@ const PostDetailPage = async (props: Promise<PageProps>) => {
             <main>
                 <section className="container mx-auto lg:max-w-5xl post-detail mt-8">
                     <article>
-                        <div className="mb-4">
-                            {/* Display the featured image if available */}
-                            {post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl && (
-                                <Image
-                                    src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}
-                                    alt={post.title}
-                                    width={800} // You can dynamically fetch width/height if needed
-                                    height={600}
-                                    className="w-full h-auto mb-6"
-                                />
-                            )}
-                        </div>
+                        {post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl && (
+                            <Image
+                                src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}
+                                alt={post.title}
+                                width={800}
+                                height={600}
+                                className="w-full h-auto mb-6"
+                            />
+                        )}
 
                         <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
 
                         <div className="text-lg text-gray-600 mb-6">
-                            Published on {/* You can insert formatted date here */}
+                            Published on {/* You can render formatted date here */}
                         </div>
 
                         <div
