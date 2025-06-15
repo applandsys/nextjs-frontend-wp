@@ -8,6 +8,11 @@ type PageProps = {
     };
 };
 
+type Category = {
+    name: string;
+    slug: string;
+};
+
 export default async function PostDetailPage({ params }: PageProps) {
     const post = await getSinglePost(params.slug);
 
@@ -37,7 +42,7 @@ export default async function PostDetailPage({ params }: PageProps) {
             {post.categories?.nodes?.length > 0 && (
                 <div className="mt-6 text-sm text-gray-600">
                     <span>Categories: </span>
-                    {post.categories.nodes.map((category: any, index: number) => (
+                    {post.categories.nodes.map((category: Category, index: number) => (
                         <span key={category.slug}>
               {index > 0 && ', '}
                             <a href={`/category/${category.slug}`} className="text-blue-500 hover:underline">
