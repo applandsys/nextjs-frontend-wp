@@ -1,11 +1,16 @@
-import js from "@eslint/js";
-import globals from "globals";
-import pluginReact from "eslint-plugin-react";
-import { defineConfig } from "eslint/config";
+import js from '@eslint/js';
+import next from 'eslint-config-next';
 
+export default [
+  js.configs.recommended,
+  ...next.configs,
+  {
+    rules: {
+      // ✅ Fix "React must be in scope"
+      'react/react-in-jsx-scope': 'off',
 
-export default defineConfig([
-  { files: ["**/*.{js,mjs,cjs,jsx}"], plugins: { js }, extends: ["js/recommended"] },
-  { files: ["**/*.{js,mjs,cjs,jsx}"], languageOptions: { globals: globals.browser } },
-  pluginReact.configs.flat.recommended,
-]);
+      // ✅ Optional: Disable PropTypes validation if not using PropTypes
+      'react/prop-types': 'off',
+    },
+  },
+];
