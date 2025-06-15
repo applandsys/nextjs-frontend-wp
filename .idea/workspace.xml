@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: ahm hima ah ah">
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nextjs-wp-blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/PostInterfaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/HomeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/HomeLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/ThemeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/ThemeLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theme-parts/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-parts/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theme-parts/TopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-parts/TopNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/comments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/graphqlRequest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/graphqlRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/pages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/seo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/seo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;applandsys&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/applandsys/nextjs-frontend-wp.git&quot;,
+    &quot;accountId&quot;: &quot;cb8f4341-f8af-44be-ada1-97b4d96a5d1a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2y7flzB6XQg0LtOlZB10eFsUDVV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;blog-page&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DEVELOPMENT/MY Project/nextjs-wp-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DEVELOPMENT\MY Project\nextjs-wp-blog\src\app\(site)" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="" />
+      <created>1749190686930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749190686930</updated>
+      <workItem from="1749190688187" duration="5288000" />
+      <workItem from="1749272434607" duration="4499000" />
+      <workItem from="1749448232873" duration="615000" />
+      <workItem from="1750010642833" duration="1732000" />
+      <workItem from="1750012784833" duration="525000" />
+      <workItem from="1750013454498" duration="1092000" />
+      <workItem from="1750014653881" duration="4136000" />
+      <workItem from="1750019526900" duration="1803000" />
+    </task>
+    <task id="LOCAL-00001" summary="Feat: Design and layout basic">
+      <option name="closed" value="true" />
+      <created>1749277036282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749277036282</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feat: Blog List blog Detail">
+      <option name="closed" value="true" />
+      <created>1750013770882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750013770882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat: Typescript is hell for this project">
+      <option name="closed" value="true" />
+      <created>1750014000504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750014000504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feat: Type fixed">
+      <option name="closed" value="true" />
+      <created>1750014185750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750014185750</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Type fixed again">
+      <option name="closed" value="true" />
+      <created>1750014333658</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750014333658</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: Type fixed again awat">
+      <option name="closed" value="true" />
+      <created>1750014535816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750014535816</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Feat: page Props">
+      <option name="closed" value="true" />
+      <created>1750016920580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750016920580</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feat: page Props fixed">
+      <option name="closed" value="true" />
+      <created>1750017063674</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017063674</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: finally for the fuck">
+      <option name="closed" value="true" />
+      <created>1750017376127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017376127</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Feat: Fuck you hima">
+      <option name="closed" value="true" />
+      <created>1750017494371</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017494371</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feat: Mal out in himas vagina">
+      <option name="closed" value="true" />
+      <created>1750017712016</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017712016</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feat: ah hima  ah">
+      <option name="closed" value="true" />
+      <created>1750017826364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017826364</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat:Image removed">
+      <option name="closed" value="true" />
+      <created>1750017933967</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750017933967</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feat: ahm hima ah ah">
+      <option name="closed" value="true" />
+      <created>1750018049714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750018049714</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feat: Design and layout basic" />
+    <MESSAGE value="Feat: Blog List blog Detail" />
+    <MESSAGE value="Feat: Typescript is hell for this project" />
+    <MESSAGE value="Feat: Type fixed" />
+    <MESSAGE value="Feat: Type fixed again" />
+    <MESSAGE value="Feat: Type fixed again awat" />
+    <MESSAGE value="Feat: page Props" />
+    <MESSAGE value="Feat: page Props fixed" />
+    <MESSAGE value="Feat: finally for the fuck" />
+    <MESSAGE value="Feat: Fuck you hima" />
+    <MESSAGE value="Feat: Mal out in himas vagina" />
+    <MESSAGE value="Feat: ah hima  ah" />
+    <MESSAGE value="Feat:Image removed" />
+    <MESSAGE value="Feat: ahm hima ah ah" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: ahm hima ah ah" />
+  </component>
+</project>
