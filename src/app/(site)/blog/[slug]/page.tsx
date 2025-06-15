@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import { getSinglePost } from '@/lib/posts';
 import Head from 'next/head';
+import {PostDetailProps} from "@/Interfaces/PostInterfaces";
 import Image from 'next/image';
+import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
 
-const PostDetailPage = async ({ params }) => {
-    const { slug } = params;
+const PostDetailPage = async ({params}: PostDetailProps) => {
+    const {slug} = params;
 
     // Fetch the single post based on the slug
     const post = await getSinglePost(slug);
@@ -41,11 +43,11 @@ const PostDetailPage = async ({ params }) => {
                         </div>
                         <div
                             className="post-content"
-                            dangerouslySetInnerHTML={{ __html: post.content }}
+                            dangerouslySetInnerHTML={{__html: post.content}}
                         ></div>
                         <div className="py-6">
                             Posted under{' '}
-                            {post.categories.nodes.map((category) => (
+                            {post.categories.nodes.map((category: { slug: Key | null | undefined; name: string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<string | number | bigint | boolean | ReactPortal | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | null | undefined> | null | undefined; }) => (
                                 <span key={category.slug}>
                   <a
                       href={`/category/${category.slug}`}
