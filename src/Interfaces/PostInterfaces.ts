@@ -24,6 +24,6 @@ export interface Post {
     };
 }
 
-export interface PostDetailProps {
-    params: { slug: string };
-}
+// export interface PostDetailProps {
+//     params: { slug: string };
+// }
