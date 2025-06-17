@@ -4,7 +4,8 @@ import Image from 'next/image';
 
 
 export default async function PostDetailPage({ params }) {
-    const post = await getSinglePost(params.slug);
+    const { slug } = await params;  // Await params here
+    const post = await getSinglePost(slug);
 
     if (!post) {
         notFound();
@@ -14,7 +15,6 @@ export default async function PostDetailPage({ params }) {
         <>
             <main className="max-w-4xl mx-auto px-4 py-8">
                 <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
-
                 {post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl && (
                     <Image
                         src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}

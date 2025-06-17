@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Google Analytics">
-      <change afterPath="$PROJECT_DIR$/src/app/(static-pages)/about/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(static-pages)/contact/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(static-pages)/layout.jsx" afterDir="false" />
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Static Pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theme-parts/TopNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-parts/TopNav.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,8 @@
       <workItem from="1750055489312" duration="2170000" />
       <workItem from="1750060213725" duration="37000" />
       <workItem from="1750087127344" duration="2156000" />
-      <workItem from="1750173153722" duration="1646000" />
+      <workItem from="1750173153722" duration="1713000" />
+      <workItem from="1750176219005" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -287,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750173194289</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Feat: Static Pages">
+      <option name="closed" value="true" />
+      <created>1750175741780</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750175741780</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +320,7 @@
     <MESSAGE value="Feat: eslint config" />
     <MESSAGE value="Feat: Category Page" />
     <MESSAGE value="Feat: Google Analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Google Analytics" />
+    <MESSAGE value="Feat: Static Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Static Pages" />
   </component>
 </project>
