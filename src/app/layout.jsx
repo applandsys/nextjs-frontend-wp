@@ -1,42 +1,31 @@
-
-import { Geist, Geist_Mono } from "next/font/google";
+// src/app/layout.jsx
+import Script from 'next/script';
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
-  title: "Mentor of Cure",
-  description: "All about Health and well being",
+    title: 'Mentor of Cure',
+    description: 'Your Trusted health Adviser',
 };
 
-export default function RootLayout({
-  children,
-}) {
-  return (
-    <html lang="en">
-	  <head>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZDGJHBLLV"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-9ZDGJHBLLV');
-		</script>
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }) {
+    return (
+        <html lang="en">
+        <head>
+            <title>Mentor of Cure</title>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-9ZDGJHBLLV"
+                strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9ZDGJHBLLV');
+          `}
+            </Script>
+        </head>
+        <body>{children}</body>
+        </html>
+    );
 }
