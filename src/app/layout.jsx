@@ -2,16 +2,10 @@
 import Script from 'next/script';
 import "./globals.css";
 
-export const metadata = {
-    title: 'Mentor of Cure',
-    description: 'Your Trusted health Adviser',
-};
-
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
         <head>
-            <title>Mentor of Cure</title>
             <Script
                 src="https://www.googletagmanager.com/gtag/js?id=G-9ZDGJHBLLV"
                 strategy="afterInteractive"
