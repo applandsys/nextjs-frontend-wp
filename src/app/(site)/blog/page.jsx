@@ -1,7 +1,12 @@
-import Head from "next/head";
+
 import Link from "next/link";
 import { getPostList } from "@/lib/posts";
 import Date from "@/components/Date";
+
+export const metadata = {
+    title: "Mentor of Cure Blogs",
+    description: "All about Health and well being",
+};
 
 const BlogPage = async () => {
 
@@ -9,9 +14,6 @@ const BlogPage = async () => {
 
     return (
         <>
-            <Head>
-                <title>Blogs</title>
-            </Head>
             <main>
                 <section className="container mx-auto lg:max-w-5xl post-list mt-4">
                     <ul>

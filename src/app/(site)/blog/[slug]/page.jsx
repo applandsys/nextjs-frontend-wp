@@ -2,14 +2,34 @@ import { notFound } from 'next/navigation';
 import { getSinglePost } from '@/lib/posts';
 import Image from 'next/image';
 
-
-export default async function PostDetailPage({ params }) {
-    const { slug } = await params;  // Await params here
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
     const post = await getSinglePost(slug);
 
     if (!post) {
         notFound();
     }
+
+    return {
+        title: post.title,
+        description: post.description,
+        openGraph: {
+            title: post.title,
+            description: post.description,
+            images: post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl || [],
+        },
+    };
+}
+
+
+export default async function PostDetailPage({ params }) {
+    const { slug } = await params;
+    const post = await getSinglePost(slug);
+
+    if (!post) {
+        notFound();
+    }
+
 
     return (
         <>
@@ -35,11 +55,11 @@ export default async function PostDetailPage({ params }) {
                         <span>Categories: </span>
                         {post.categories.nodes.map((category, index) => (
                             <span key={category.slug}>
-              {index > 0 && ', '}
+                                {index > 0 && ', '}
                                 <a href={`/category/${category.slug}`} className="text-blue-500 hover:underline">
-                {category.name}
-              </a>
-            </span>
+                                    {category.name}
+                                </a>
+                            </span>
                         ))}
                     </div>
                 )}
