@@ -1,0 +1,31 @@
+# Allow all robots complete access to the site
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# Block access to sensitive or private areas
+Disallow: /wp-content/uploads/private/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/plugins/
+
+# Allow search engines to crawl CSS and JS files
+Allow: /wp-content/themes/your-theme-name/style.css
+Allow: /wp-content/themes/your-theme-name/js/
+
+# Sitemap location
+Sitemap: https://mentorofcure.com/sitemap.xml
+
+# Crawl-delay for crawlers that support it (e.g., Bingbot)
+Crawl-delay: 10
+
+# Prevent image search engines from indexing images
+User-agent: Googlebot-Image
+Disallow: /
+
+# Prevent video search engines from indexing videos
+User-agent: Googlebot-Video
+Disallow: /
+
