@@ -1,5 +1,10 @@
 import HomeLayout from "@/components/layouts/HomeLayout";
 
+export const metadata = {
+    title: "Mentor of Cure Blogs",
+    description: "All about Health and well being",
+};
+
 export default function Home() {
   return (
       <HomeLayout>
