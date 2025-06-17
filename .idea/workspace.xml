@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Set the Metadata Generator">
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Set the Metadata to Home page">
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +109,7 @@
       <workItem from="1750087127344" duration="2156000" />
       <workItem from="1750173153722" duration="1713000" />
       <workItem from="1750176219005" duration="125000" />
-      <workItem from="1750183615341" duration="2787000" />
+      <workItem from="1750183615341" duration="4291000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -317,14 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750186148727</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Feat: Set the Metadata to Home page">
+      <option name="closed" value="true" />
+      <created>1750186525132</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750186525132</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Blog List blog Detail" />
     <MESSAGE value="Feat: Typescript is hell for this project" />
     <MESSAGE value="Feat: Type fixed" />
     <MESSAGE value="Feat: Type fixed again" />
@@ -349,6 +358,7 @@
     <MESSAGE value="Feat: H2 tag and Publish date fix" />
     <MESSAGE value="Feat: H3 tag size" />
     <MESSAGE value="Feat: Set the Metadata Generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Set the Metadata Generator" />
+    <MESSAGE value="Feat: Set the Metadata to Home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Set the Metadata to Home page" />
   </component>
 </project>
