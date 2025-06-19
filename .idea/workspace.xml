@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Set the Metadata to Home page">
-      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Home page content and title paragraph style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,8 @@
       <workItem from="1750087127344" duration="2156000" />
       <workItem from="1750173153722" duration="1713000" />
       <workItem from="1750176219005" duration="125000" />
-      <workItem from="1750183615341" duration="4291000" />
+      <workItem from="1750183615341" duration="4623000" />
+      <workItem from="1750228732035" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -327,14 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750186525132</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Feat: Home page content and title paragraph style">
+      <option name="closed" value="true" />
+      <created>1750188150498</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750188150500</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Typescript is hell for this project" />
     <MESSAGE value="Feat: Type fixed" />
     <MESSAGE value="Feat: Type fixed again" />
     <MESSAGE value="Feat: Type fixed again awat" />
@@ -359,6 +364,7 @@
     <MESSAGE value="Feat: H3 tag size" />
     <MESSAGE value="Feat: Set the Metadata Generator" />
     <MESSAGE value="Feat: Set the Metadata to Home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Set the Metadata to Home page" />
+    <MESSAGE value="Feat: Home page content and title paragraph style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Home page content and title paragraph style" />
   </component>
 </project>
