@@ -39,8 +39,8 @@ export default async function PostDetailPage({ params }) {
                     <Image
                         src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}
                         alt={post.title}
-                        width={800}
-                        height={450}
+                        width={1024}
+                        height={1024}
                         className="mb-6 rounded-lg"
                     />
                 )}
