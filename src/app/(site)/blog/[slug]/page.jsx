@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import { getSinglePost } from '@/lib/posts';
 import Image from 'next/image';
+import getPostById from "@/services/getPostById.js";
+import Description from "@/components/Ui/Descripton.jsx";
 
 export async function generateMetadata({ params }) {
     const { slug } = await params;
-    const post = await getSinglePost(slug);
+    const post = await getPostById(slug);
 
     if (!post) {
         notFound();
@@ -16,7 +18,7 @@ export async function generateMetadata({ params }) {
         openGraph: {
             title: post.title,
             description: post.description,
-            images: post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl || [],
+            images: post.featured_image || null,
         },
     };
 }
@@ -24,45 +26,34 @@ export async function generateMetadata({ params }) {
 
 export default async function PostDetailPage({ params }) {
     const { slug } = await params;
-    const post = await getSinglePost(slug);
+    const post = await getPostById(slug);
 
     if (!post) {
         notFound();
     }
 
+    console.log(post);
 
     return (
         <>
             <main className="max-w-4xl mx-auto px-4 py-8">
-                <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
-                {post.featuredImage?.node?.mediaDetails?.sizes?.[0]?.sourceUrl && (
+                <h1 className="text-3xl font-bold mb-4">{post.news.title}</h1>
+                {post.news.featured_image && (
                     <Image
-                        src={post.featuredImage.node.mediaDetails.sizes[0].sourceUrl}
-                        alt={post.title}
+                        src={`https://wp.mentorofcure.com/${post.news.featured_image}`}
+                        alt={post.news.title}
                         width={1024}
                         height={1024}
-                        className="mb-6 rounded-lg"
+                        className="w-full h-auto"
                     />
                 )}
 
-                <div
-                    className="prose max-w-none"
-                    dangerouslySetInnerHTML={{ __html: post.content }}
-                />
+                <div>
+                    <Description description={post.news.description} />
+                </div>
 
-                {post.categories?.nodes?.length > 0 && (
-                    <div className="mt-6 text-sm text-gray-600">
-                        <span>Categories: </span>
-                        {post.categories.nodes.map((category, index) => (
-                            <span key={category.slug}>
-                                {index > 0 && ', '}
-                                <a href={`/category/${category.slug}`} className="text-blue-500 hover:underline">
-                                    {category.name}
-                                </a>
-                            </span>
-                        ))}
-                    </div>
-                )}
+
+
             </main>
         </>
     );
