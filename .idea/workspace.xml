@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: No cache and consle verification" />
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: footer changed">
+      <change afterPath="$PROJECT_DIR$/src/components/Ui/Descripton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/getPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/getPostById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +31,12 @@
     &quot;assignee&quot;: &quot;applandsys&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/applandsys/nextjs-frontend-wp.git",
-    "accountId": "408f4062-dad1-48d0-9cba-884a7d1f85af"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/applandsys/nextjs-frontend-wp.git&quot;,
+    &quot;accountId&quot;: &quot;408f4062-dad1-48d0-9cba-884a7d1f85af&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -42,6 +49,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "js-formtat",
     "ignore.virus.scanning.warn.message": "true",
@@ -53,7 +61,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,6 +115,10 @@
       <workItem from="1750183615341" duration="4623000" />
       <workItem from="1750228732035" duration="351000" />
       <workItem from="1750364585610" duration="296000" />
+      <workItem from="1750401264599" duration="980000" />
+      <workItem from="1750405543113" duration="678000" />
+      <workItem from="1750531707069" duration="8000" />
+      <workItem from="1750531793189" duration="2288000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -340,14 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750364720436</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Feat: footer changed">
+      <option name="closed" value="true" />
+      <created>1750401362780</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1750401362780</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Type fixed again" />
     <MESSAGE value="Feat: Type fixed again awat" />
     <MESSAGE value="Feat: page Props" />
     <MESSAGE value="Feat: page Props fixed" />
@@ -372,6 +391,7 @@
     <MESSAGE value="Feat: Set the Metadata to Home page" />
     <MESSAGE value="Feat: Home page content and title paragraph style" />
     <MESSAGE value="Feat: No cache and consle verification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: No cache and consle verification" />
+    <MESSAGE value="Feat: footer changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: footer changed" />
   </component>
 </project>
