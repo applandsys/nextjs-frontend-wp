@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: API source changed">
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: category deteleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +114,7 @@
       <workItem from="1750405543113" duration="678000" />
       <workItem from="1750531707069" duration="8000" />
       <workItem from="1750531793189" duration="2791000" />
+      <workItem from="1750566384875" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -363,14 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750534280529</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Feat: category deteleted">
+      <option name="closed" value="true" />
+      <created>1750566501830</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1750566501830</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: page Props" />
     <MESSAGE value="Feat: page Props fixed" />
     <MESSAGE value="Feat: finally for the fuck" />
     <MESSAGE value="Feat: Fuck you hima" />
@@ -395,6 +403,7 @@
     <MESSAGE value="Feat: No cache and consle verification" />
     <MESSAGE value="Feat: footer changed" />
     <MESSAGE value="Feat: API source changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: API source changed" />
+    <MESSAGE value="Feat: category deteleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: category deteleted" />
   </component>
 </project>

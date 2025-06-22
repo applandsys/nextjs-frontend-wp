@@ -39,7 +39,7 @@ const BlogPage = async () => {
                                 <div className="col-span-3">
                                     <h2 className="py-4">
                                         <Link
-                                            href={`/blog/${post.id}`}
+                                            href={`/blog/${post.slug}`}
                                             className="text-blue-400 text-2xl hover:text-blue-600"
                                         >
                                             {post.title}

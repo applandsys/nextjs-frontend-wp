@@ -1,12 +1,11 @@
 import { notFound } from 'next/navigation';
-import { getSinglePost } from '@/lib/posts';
 import Image from 'next/image';
-import getPostById from "@/services/getPostById.js";
 import Description from "@/components/Ui/Descripton.jsx";
+import getPostBySlug from "@/services/getPostBySlug.js";
 
 export async function generateMetadata({ params }) {
     const { slug } = await params;
-    const post = await getPostById(slug);
+    const post = await getPostBySlug(slug);
 
     if (!post) {
         notFound();
@@ -26,7 +25,7 @@ export async function generateMetadata({ params }) {
 
 export default async function PostDetailPage({ params }) {
     const { slug } = await params;
-    const post = await getPostById(slug);
+    const post = await getPostBySlug(slug);
 
     if (!post) {
         notFound();
