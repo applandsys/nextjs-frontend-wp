@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: footer changed">
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/Descripton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/getPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/getPostById.js" afterDir="false" />
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: API source changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/[slug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(site)/blog/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "js-formtat",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/LOCAL_DEVELOPMENT/MY Project/nextjs-wp-blog",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;js-formtat&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/LOCAL_DEVELOPMENT/MY Project/nextjs-wp-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\DEVELOPMENT\MY Project\nextjs-wp-blog\src\app\(site)" />
@@ -118,7 +113,7 @@
       <workItem from="1750401264599" duration="980000" />
       <workItem from="1750405543113" duration="678000" />
       <workItem from="1750531707069" duration="8000" />
-      <workItem from="1750531793189" duration="2288000" />
+      <workItem from="1750531793189" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -360,14 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750401362780</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Feat: API source changed">
+      <option name="closed" value="true" />
+      <created>1750534280529</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1750534280529</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Type fixed again awat" />
     <MESSAGE value="Feat: page Props" />
     <MESSAGE value="Feat: page Props fixed" />
     <MESSAGE value="Feat: finally for the fuck" />
@@ -392,6 +394,7 @@
     <MESSAGE value="Feat: Home page content and title paragraph style" />
     <MESSAGE value="Feat: No cache and consle verification" />
     <MESSAGE value="Feat: footer changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: footer changed" />
+    <MESSAGE value="Feat: API source changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: API source changed" />
   </component>
 </project>
