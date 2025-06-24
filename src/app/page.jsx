@@ -1,8 +1,8 @@
 import HomeLayout from "@/components/layouts/HomeLayout";
 
 export const metadata = {
-    title: "Mentor of Cure Blogs",
-    description: "All about Health and well being",
+    title: "Mentor of Home Page",
+    description: "All about Health and well being, We are the mentor of your Health Care | Articles of Health and Cure",
 };
 
 export default function Home() {
