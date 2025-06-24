@@ -22,7 +22,6 @@ export async function generateMetadata({ params }) {
     };
 }
 
-
 export default async function PostDetailPage({ params }) {
     const { slug } = await params;
     const post = await getPostBySlug(slug);
@@ -31,29 +30,26 @@ export default async function PostDetailPage({ params }) {
         notFound();
     }
 
-    console.log(post);
-
     return (
-        <>
-            <main className="max-w-4xl mx-auto px-4 py-8">
-                <h1 className="text-3xl font-bold mb-4">{post.news.title}</h1>
-                {post.news.featured_image && (
-                    <Image
-                        src={`https://wp.mentorofcure.com/${post.news.featured_image}`}
-                        alt={post.news.title}
-                        width={1024}
-                        height={1024}
-                        className="w-full h-auto"
-                    />
-                )}
+        <main className="max-w-4xl mx-auto px-4 py-8">
+            <h1 className="text-3xl font-bold mb-4">{post.news.title}</h1>
 
-                <div>
-                    <Description description={post.news.description} />
-                </div>
+            {/* Featured Image */}
+            {post.news.featured_image && (
+                <Image
+                    src={`https://wp.mentorofcure.com/${post.news.featured_image}`}
+                    alt={post.news.title}
+                    width={1024}
+                    height={1024}
+                    className="w-full h-auto"
+                    priority // Optionally add priority for fast loading
+                />
+            )}
 
-
-
-            </main>
-        </>
+            {/* Description */}
+            <div>
+                <Description description={post.news.description} />
+            </div>
+        </main>
     );
 }
