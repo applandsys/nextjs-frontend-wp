@@ -12,15 +12,8 @@ export async function generateMetadata({ params }) {
     }
 
     return {
-        title: post.news.title,
-        description: post.news.description,
-        openGraph: {
-            title: post.news.title,
-            description: post.news.description,
-            images: post.news.featured_image
-                ? [`https://wp.mentorofcure.com/${post.news.featured_image}`]
-                : [],
-        },
+        title: post.news.title | 'Mentor of Blog Detail',
+        description: post.news.description
     };
 }
 
