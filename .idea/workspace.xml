@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Excerpt Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="408171aa-2a40-4838-8551-d76f94f8a683" name="Changes" comment="Feat: Blog detail page meta tag updated." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +120,7 @@
       <workItem from="1750660791232" duration="1235000" />
       <workItem from="1750690506950" duration="146000" />
       <workItem from="1750696022995" duration="115000" />
+      <workItem from="1750835929583" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Design and layout basic">
       <option name="closed" value="true" />
@@ -403,15 +402,29 @@
       <option name="project" value="LOCAL" />
       <updated>1750690543556</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Feat: Blog detail page meta tag">
+      <option name="closed" value="true" />
+      <created>1750836168112</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1750836168112</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Feat: Blog detail page meta tag updated.">
+      <option name="closed" value="true" />
+      <created>1750836497653</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1750836497653</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: Mal out in himas vagina" />
-    <MESSAGE value="Feat: ah hima  ah" />
     <MESSAGE value="Feat:Image removed" />
     <MESSAGE value="Feat: ahm hima ah ah" />
     <MESSAGE value="Feat: converted to js" />
@@ -435,6 +448,8 @@
     <MESSAGE value="Feat: post detail with slug" />
     <MESSAGE value="Feat: disable cache" />
     <MESSAGE value="Feat: Excerpt Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Excerpt Added" />
+    <MESSAGE value="Feat: Blog detail page meta tag" />
+    <MESSAGE value="Feat: Blog detail page meta tag updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Blog detail page meta tag updated." />
   </component>
 </project>
